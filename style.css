@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blue;
+    padding: 3px;
+    padding-left: 6px;
+    position: relative;
+}
+
+
+i#menu {
+   background-color: white;
+   padding: 1px;
+   padding-top: 1px;
+   border-radius: 5px;
+}
+
+menu {
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.418);
+    width: 100vh;
+}
+
+a.ilb {
+    font-family: Arial, sans-serif;
+    font-weight: lighter;
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+
+#lupa {
+    color: white;
+    position: relative;
+    position: absolute;
+    right: 190px;
+}
+
+#sino {
+    color: white;
+    position: relative;
+    position: absolute;
+    right: 165px;
+}
+
+#help {
+    color: white;
+    position: absolute;
+    right: -35px;
+}
+
+header > a.jhon {
+    position: absolute;
+    right: 50px;
+    padding-top: 8px;
+    color: lightblue;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: lighter;
+    font-size: .6em;
+}
+
+#perfil {
+    color: white;
+    position: absolute;
+    right: 15px;
+}
+
